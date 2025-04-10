@@ -1,0 +1,35 @@
+@media (max-width: 1300px) {
+    .header-content{
+        align-items: center;
+    }
+    .cards, .info{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .footer-content{
+        padding: 0 50px;
+    }
+}
+@media (max-width: 900px) {
+    .nav{
+        display: none;
+    }
+    .info-card{
+        max-width: 825px;
+        width: 100%;
+    }
+    .info-left{
+        padding: 0 15px;
+    }
+    .header{
+        padding-top: 0;
+    }
+}
+@media (max-width: 676px) {
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-title{
+        font-size: 30px;
+    }
+}
